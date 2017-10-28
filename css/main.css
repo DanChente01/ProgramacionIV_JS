@@ -1,0 +1,8 @@
+#respuestas{
+    height: 250px;
+    width: 400px;
+    background-color: #e1e1e1;
+}
+input[type="number"]{
+    width: 15%;
+}

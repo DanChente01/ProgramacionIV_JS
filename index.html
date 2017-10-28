@@ -2,26 +2,38 @@
 <html>
 <head>
 	<title>Java Script</title>
-	<script type="text/javascript" src="archivo.js">
-		//document.write("Ejemplo de archivo js");
-	</script>
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+<h1>Taller js</h1>
+<h3>1. Generar un vector de 10 posiciones con numero aleatorios</h3>
 	<form>
-		<input type="button" name="mensaje" value="mensaje" onclick="funcionMostrar()"><br>
-		<label>Digite texto</label>
-		<input type="text" name="texto1">
-		<input type="button" name="mensaje" value="Aceptar" onclick="funcionMostrar2(texto1.value)"><br><br>
+		<label>Generar Numeros Aleatorios</label>
+		<input type="button" name="mensaje" value="Numeros Aleatorios" onclick="numerosAleatorios()"><br><br>
 
-		<label>Digite texto</label>
-		<input type="text" name="elemento1">
+		<label>Buscar elemento dentro de un vector</label>
+		<input type="number"  id="buscar">
+		<input type="button" name="mensaje" value="Buscar" onclick="buscarElemento(document.getElementById('buscar').value);"><br><br>
+				
+		<label>Ordenar vector sin metodo burbuja</label>
+		<input type="button" name="mensaje" value="ordenar" onclick="ordenarSinBurbuja()"><br><br>
+
+		<label>texto aleatorio</label>
+		<input type="button" name="mensaje" value="Letras Aleatorias" onclick="textoAleatorio()"><br><br>
+
+		<label>Concatenar</label>
+		<input type="button" name="mensaje" value="concatenar" onclick="concatenar()"><br><br>
+
+		<label>Reemplazar</label>
+		<input type="button" name="mensaje" value="reemplazar" onclick="reemplazarCentral()">
 		
-		<label>Digite texto</label>
-		<input type="text" name="elemento2">
-		<input type="button" name="mensaje" value="Aceptar" onclick="calculadora(elemento1.value, elemento2.value)"><br>
-		<input type="button" name="hola" value="Aceptar" onclick="vector()">
-		<input type="button" name="hola" value="Aceptar2" onclick="vector2()">
 	</form>
-	
+	<br><br>
+
+	<div id="respuestas">
+
+	</div>
+
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
