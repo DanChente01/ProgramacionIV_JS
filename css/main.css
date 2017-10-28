@@ -1,0 +1,32 @@
+/*Tipo de letra*/
+html{
+    font-family: Tahoma, sans-serif;
+}
+
+/*ESTILOS FRAMESET*/
+/*Estilo para titulo.html*/
+.titulo{
+    color: #e80c0c;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*Estilo para bienvenidos.hml*/
+#centrado{
+  text-align: center;
+  color: #e80c0c;
+}
+/*Estilo para ingreso y menuPrincipal*/
+.blanco{
+  color: #ffffff;
+  font-weight: bold;
+}
+.rojo{
+  color: #e80c0c;
+  font-weight: bold;
+}
+.logo{
+  
+  height: 80px;
+  width: 80px;
+  
+}
